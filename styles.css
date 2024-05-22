@@ -1,0 +1,118 @@
+/* Style the header container */
+.header-container {
+    background-color: #007bff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the header */
+}
+
+.header-container h1 {
+    margin: 0;
+    color: white;
+    font-size: 28px;
+}
+
+/* Style the login section */
+#login-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login-section input, .btn {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#login-section input {
+    width: 50%;
+    margin-right: 10px;
+}
+
+#login-section .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#login-section .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the todo section */
+#todo-section {
+    display: none; /* Initially hide todo section */
+}
+
+/* Style the task form */
+#task-form {
+    text-align: center; /* Center the task form */
+    margin-bottom: 20px;
+}
+
+#task-form input, #task-form select, #task-form button {
+    margin-right: 10px;
+}
+
+/* Style the filter bar */
+#filter-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#filter-bar table {
+    margin: 0 auto; /* Center the table */
+}
+
+#filter-bar table td {
+    padding: 0 10px;
+}
+
+/* Style the task list */
+#task-list {
+    padding: 0;
+    list-style-type: none; /* Remove default list styles */
+}
+
+.task-item {
+    padding: 15px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+    position: relative; /* For positioning the buttons */
+    border-radius: 5px;
+}
+
+.task-item:hover {
+    background-color: #e9ecef;
+}
+
+.task-actions {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.task-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.task-actions .edit-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.task-actions .edit-btn:hover {
+    background-color: #e0a800;
+}
+
+.task-actions .delete-btn {
+    background-color: #dc3545;
+}
